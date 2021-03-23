@@ -134,3 +134,6 @@ export NVM_DIR="/home/xxkeefer/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 source "/etc/profile.d/rvm.sh"
+
+# enable starship prompt
+eval "$(starship init bash)"
